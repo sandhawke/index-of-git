@@ -1,0 +1,36 @@
+{
+  "name": "index-of-git",
+  "version": "1.0.0",
+  "description": "Maintain a mapping from some SHA to files somewhere in the history of a git repo",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap --cov test*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandhawke/index-of-git.git"
+  },
+  "keywords": [
+    "git",
+    "version",
+    "integrity",
+    "sha256",
+    "hash",
+    "cache"
+  ],
+  "author": "Sandro Hawke (http://hawke.org/sandro)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sandhawke/index-of-git/issues"
+  },
+  "homepage": "https://github.com/sandhawke/index-of-git#readme",
+  "dependencies": {
+    "debug": "^4.1.0",
+    "simple-git": "^1.107.0",
+    "vihash": "^1.1.0"
+  },
+  "devDependencies": {
+    "tap": "^12.1.0",
+    "tape": "^4.9.1"
+  }
+}
